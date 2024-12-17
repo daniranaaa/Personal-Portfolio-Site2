@@ -1,0 +1,911 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Outfit", sans-serif;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+}
+
+.main {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    justify-content: space-around;
+}
+
+.nav {
+    width: 100%;
+    height: 90px;
+    background-color: #443f35;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+    border-radius: 200px;
+    border: 3px solid aqua;
+    margin-top: 2vw;
+}
+
+.nav img {
+    width: 5%;
+    height: 60%;
+    border-radius: 10vw;
+    background-color: #443f35;
+}
+
+.nav img:hover {
+    cursor: pointer;
+}
+
+.nav2 {
+    display: flex;
+    gap: 5vw;
+    align-items: center;
+}
+
+.icon {
+    display: flex;
+    gap: 5vw;
+
+}
+
+.nav2 h4 {
+    color: white;
+    font-weight: 500;
+}
+
+.nav2 h4:hover {
+    text-decoration: underline aqua;
+    cursor: pointer;
+}
+
+.nav3 {
+    display: flex;
+}
+
+.nav3 .btn {
+    background-color: aqua;
+    border-radius: 2vw;
+    height: 50px;
+    width: 170px;
+    border: none;
+    cursor: pointer;
+    font-weight: 550;
+}
+
+.nav3 .btn:hover {
+    background-color: white;
+    transition: 0.4s linear;
+}
+
+.nav i {
+    color: white;
+    font-size: 1.6vw;
+    font-weight: 800;
+    display: none;
+    background-color: #443f35;
+}
+
+.content {
+    width: 100%;
+    height: calc(100% - 100px);
+    display: flex;
+    position: relative;
+}
+
+.left {
+    width: 47%;
+    height: 60%;
+    display: flex;
+    border: 1px solid aqua;
+    margin: 6vw;
+    border-radius: 2vw;
+    background-color: #212321;
+    padding: 2vw;
+}
+
+.left img {
+    width: 60%;
+    height: 100%;
+    border-radius: 3vw;
+}
+
+.left p {
+    margin: 1vw 1vw;
+    color: white;
+    letter-spacing: 0.1vw;
+    font-size: 1vw;
+    font-weight: 600;
+    width: 30vw;
+}
+
+.left1 {
+    margin-top: 3vw;
+}
+
+.left h1 {
+    color: aqua;
+    margin: 1vw;
+    font-size: 3.3vw;
+}
+
+.left1 .para1 {
+    width: 20vw;
+    color: #9f9f9f;
+    font-family: "Outfit", serif;
+    font-optical-sizing: auto;
+    font-weight: 277;
+    font-weight: 400;
+}
+
+.rightside {
+    display: flex;
+    flex-direction: column;
+    gap: 2vw;
+    margin-top: 6vw;
+}
+
+.right {
+    width: 100%;
+    height: 10%;
+    border: 1px solid aqua;
+    padding: 1vw;
+    background-color: #212321;
+    border-radius: 5vw;
+}
+
+.portfolio p {
+    color: white;
+    font-size: 1vw;
+}
+
+.right p span {
+    color: aqua;
+}
+
+.exp {
+    border: 1px solid aqua;
+    height: 55%;
+    width: 100%;
+    border-radius: 2vw;
+    background-color: #212321;
+    padding: 2vw;
+    display: flex;
+    gap: 1vw;
+}
+
+.exp h1 {
+    color: white;
+}
+
+.box1 span {
+    font-size: 3vw;
+    font-weight: 900;
+    color: white;
+}
+
+.exp .box1 {
+    background-color: #252525;
+    height: 100%;
+    width: 33%;
+    border-radius: 2vw;
+    padding: 1.3vw;
+    text-align: center;
+}
+
+.exp .box1 p {
+    color: #9f9f9f;
+}
+
+.proj h1 {
+    color: aqua;
+    text-align: center;
+    font-weight: 900;
+    letter-spacing: 0.6vw;
+    margin-top: 4vw;
+}
+
+.boxes {
+    padding-left: 4vw;
+    display: flex;
+    margin-top: 4vw;
+    gap: 2vw;
+}
+
+.proj .b1 {
+    width: 30%;
+    height: 100%;
+    border: 1px solid aqua;
+    border-radius: 2vw;
+    padding: 1.5vw;
+    background-color: #252525
+}
+
+.proj .b4 {
+    width: 30%;
+    border: 1px solid aqua;
+    border-radius: 2vw;
+    padding: 2.3vw;
+    background-color: #252525
+}
+
+.b4 .hicon i {
+    margin-left: 10vw;
+}
+
+.b4 p {
+    margin-left: 0.5vw;
+    padding: 0.4vw;
+}
+
+.hicon {
+    display: flex;
+}
+
+.hicon .icn {
+    margin-left: 5vw;
+    color: white;
+    font-size: 2vw;
+    cursor: pointer;
+}
+
+.hicon h3 {
+    margin-left: 1vw;
+}
+
+.b1 img {
+    width: 100%;
+    height: 30%;
+    border-radius: 2vw;
+}
+
+.b1 p {
+    margin-left: 0.5vw;
+    padding: 0.4vw;
+}
+
+.boxes .boxes2 p {
+    margin-top: 1vw;
+}
+
+.boxes2 {
+    padding-left: 4vw;
+    display: flex;
+    gap: 2vw;
+    margin-top: 2vw;
+}
+
+.b4 {
+    width: 30%;
+    height: 50vw;
+    border: 1px solid aqua;
+    border-radius: 2vw;
+    padding: 1.5vw;
+    background-color: #252525
+}
+
+.b4 img {
+    width: 100%;
+    height: 90%;
+    border-radius: 2vw;
+    object-fit: cover;
+}
+
+.b4 img .imgb4 {
+    width: 100%;
+    height: 90%;
+    border-radius: 2vw;
+}
+
+.about {
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.lefty {
+    width: 50%;
+    height: 100%;
+    margin-left: 6vw;
+}
+
+.lefty h1 {
+    color: aqua;
+    margin: 1vw;
+    font-size: 4vw;
+    font-weight: 900;
+    letter-spacing: 0.1vw;
+}
+
+.line {
+    width: 25vw;
+    height: 0.3vw;
+    background-color: white;
+    border-radius: 1vw;
+}
+
+.lefty p {
+    color: white;
+    margin-top: 4vw;
+    font-size: 1.5vw;
+}
+
+.lefty .p2 {
+    color: white;
+    font-size: 1.3vw;
+    margin-top: 2vw;
+}
+
+.arrow1 {
+    display: flex;
+    margin-top: 3vw;
+}
+
+.lefty i {
+    color: aqua;
+    font-size: 2vw;
+}
+
+.arrow1 .p3 {
+    margin: 0;
+    padding-left: 1vw;
+}
+
+.righty {
+    width: 50%;
+    height: 100%;
+}
+
+.righty img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.services {
+    text-align: center;
+    justify-content: center;
+}
+
+.services h1 {
+    color: white;
+}
+
+.services .line2 {
+    width: 17vw;
+    height: 0.3vw;
+    background-color: white;
+    border-radius: 1vw;
+    margin: 0 auto;
+    margin-top: 1vw;
+}
+
+.services p {
+    color: #9f9f9f;
+    margin-top: 1vw;
+    text-align: center;
+    margin: 2vw 4vw;
+}
+
+.baxes {
+    display: flex;
+    gap: 2vw;
+    justify-content: center;
+}
+
+.baxes .wordpress {
+    width: 26vw;
+    height: 30vw;
+    object-fit: cover;
+}
+
+.reviews {
+    margin-top: 2vw;
+    padding-left: 3vw;
+    text-align: center;
+}
+
+.reviews h1 {
+    color: aqua;
+    font-size: 4vw;
+    letter-spacing: 0.1vw;
+    margin-top: 4vw;
+}
+
+.dabby .one {
+    width: 45%;
+    height: 100%;
+    border: 1px solid aqua;
+    margin: 1vw;
+    border-radius: 2vw;
+    background-color: #212321;
+    padding: 4vw;
+}
+
+.dusre {
+    display: flex;
+}
+
+.one p {
+    color: white;
+    font-size: 1.4vw;
+}
+
+.dabby .pehle {
+    display: flex;
+}
+
+.reviews .rp {
+    color: white;
+    font-size: 1.5vw;
+    margin-top: 1vw;
+}
+
+.on0 {
+    display: flex;
+    margin-top: 2vw;
+}
+
+.on0 img {
+    width: 10%;
+    height: 10%;
+    border-radius: 100%;
+    margin-top: 1vw;
+}
+
+.one0 {
+    margin: 1vw 1vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.one0 p {
+    color: aqua;
+    font-weight: 600;
+    letter-spacing: 0.1vw;
+}
+
+.one0 .pera {
+    color: white;
+}
+
+.contact {
+    text-align: center;
+}
+
+.contact h1 {
+    color: aqua;
+    font-size: 3.5vw;
+    letter-spacing: 0.1vw;
+    margin-top: 3vw;
+}
+
+.contact p {
+    color: white;
+    font-weight: 600;
+    letter-spacing: 0.1vw;
+    font-size: 1.8vw;
+    margin-top: 1vw;
+}
+
+.contact .aa {
+    color: white;
+    font-size: 2vw;
+    font-weight: 600;
+    margin-top: 10vw;
+}
+
+.links {
+    margin-top: 2vw;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    gap: 1vw;
+}
+
+.linkedin:hover {
+    transform: scale(1.2);
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.3);
+}
+
+.linkedin img {
+    height: 10%;
+    width: 20%;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    transform-origin: center;
+    border-radius: 100%;
+}
+
+.linkedin .li {
+    color: white;
+    font-size: 3vw;
+    background: none;
+}
+
+.linkedin .fb {
+    color: white;
+    font-size: 3vw;
+    background: none;
+}
+
+.linkedin .ins {
+    color: white;
+    font-size: 3vw;
+    background: none;
+}
+
+@media (max-width: 600px) {
+    .nav h4 {
+        padding: 10vw 2vw;
+        font-size: 1vw;
+        display: none;
+    }
+
+    .nav i {
+        display: block;
+        font-size: 6vw;
+    }
+
+    .nav img {
+        width: 10%;
+        height: 50%;
+        border-radius: 10vw;
+    }
+
+    .nav3 .btn {
+        border-radius: 10vw;
+        color: #000;
+    }
+
+    .content {
+        height: calc(100% - 60px);
+        flex-direction: column;
+    }
+
+    .left h1 {
+        width: 80vw;
+        line-height: 12vw;
+        text-align: center;
+        font-size: 10vw;
+    }
+
+    .left p {
+        line-height: 10px;
+        margin-top: 2.5vw;
+        font-size: 3vw;
+        letter-spacing: 0.3vw;
+        line-height: 5vw;
+        text-align: center;
+        width: 80vw;
+    }
+
+    .left .btn1 {
+        height: 8vw;
+        margin-top: 2vw;
+        width: 25vw;
+        color: #000;
+        margin-left: 30vw;
+    }
+
+    .right img {
+        width: 95vw;
+        height: 80vw;
+    }
+
+    .left {
+        width: 90%;
+        border-radius: 8vw;
+        padding: 8vw;
+        height: 70%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .left img {
+        border-radius: 5vw;
+        height: 60%;
+        margin-left: 8vw;
+        width: 80%;
+    }
+
+    .left .para1 {
+        width: 100%;
+        padding-left: 3vw;
+    }
+
+    .left p {
+        padding-right: 8vw;
+    }
+
+    .left h1 {
+        text-align: center;
+        padding-right: 8vw;
+    }
+
+    .right {
+        height: 90%;
+        margin: 0 6vw;
+        padding: 5vw;
+        width: 90%;
+        border-radius: 10vw;
+    }
+
+    .right p {
+        font-size: 3vw;
+    }
+
+    .rightside {
+        gap: 6vw;
+    }
+
+    .exp {
+        width: 90%;
+        height: 100%;
+        border-radius: 10vw;
+        display: flex;
+        flex-direction: column;
+        gap: 4vw;
+        align-items: center;
+        margin: 0 6vw;
+        padding: 6vw;
+    }
+
+    .exp .box1 {
+        width: 100%;
+        padding: 12vw;
+        height: 100%;
+        background-color: #252525;
+        border-radius: 8vw;
+    }
+
+    .box1 span {
+        font-size: 10vw;
+        font-weight: 900;
+        color: white;
+    }
+
+    .about {
+        flex-direction: column;
+        margin-top: 170vw;
+    }
+
+    .lefty h1 {
+        font-size: 11vw;
+        letter-spacing: 0.4vw;
+        width: 150%;
+        color: aqua;
+    }
+
+    .lefty .line {
+        width: 140%;
+        height: 1vw;
+        border-radius: 4vw;
+    }
+
+    .lefty p {
+        font-size: 4vw;
+        width: 150%;
+        margin-top: 6vw;
+    }
+
+    .about .p2 {
+        font-size: 4vw;
+        width: 180%;
+        line-height: 6vw;
+        margin-top: 6vw;
+    }
+
+    .arrow1 {
+        margin-top: 8vw;
+    }
+
+    .arrow1 .p3 {
+        font-size: 4.5vw;
+    }
+
+    .arrow1 i {
+        font-size: 6vw;
+    }
+
+    .righty img {
+        width: 150%;
+        height: 100%;
+        margin-left: 10vw;
+        margin-top: 6vw;
+    }
+
+    .services {
+        margin-top: 35vw;
+    }
+
+    .services h1 {
+        font-size: 10vw;
+        letter-spacing: 0.3vw;
+    }
+
+    .services .line2 {
+        width: 60%;
+        margin-top: 2vw;
+        height: 1vw;
+        border-radius: 4vw;
+    }
+
+    .services p {
+        margin-top: 5vw;
+    }
+
+    .baxes {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .baxes .wordpress {
+        width: 90%;
+        height: 2%;
+        margin-top: 4vw;
+    }
+
+    .reviews {
+        margin-top: 10vw;
+    }
+
+    .reviews h1 {
+        font-size: 10vw;
+    }
+
+    .reviews .rp {
+        font-size: 4vw;
+        width: 100%;
+        margin-top: 4vw;
+    }
+
+    .pehle {
+        flex-direction: column;
+        align-items: center;
+        gap: 4vw;
+        margin-top: 4vw;
+        margin-right: 3vw;
+    }
+
+    .reviews .one {
+        width: 100%;
+        height: 70vw;
+        border-radius: 4vw;
+        padding: 6vw;
+    }
+
+    .one p {
+        font-size: 4.5vw;
+        text-align: start;
+    }
+
+    .on0 {
+        margin-top: 6vw;
+    }
+
+    .on0 img {
+        width: 15%;
+    }
+
+    .on0 .pera {
+        margin-top: 2vw;
+        width: 70vw;
+    }
+
+    .one0 {
+        margin-left: 5vw;
+    }
+
+    .proj {
+        margin-top: 8vw;
+    }
+
+    .boxes {
+        flex-direction: column;
+        margin-right: 2vw;
+    }
+
+    .boxes .b1 {
+        width: 100%;
+        border-radius: 6vw;
+        padding: 6vw;
+        margin-top: 4vw;
+    }
+
+    .b1 img {
+        border-radius: 6vw;
+    }
+
+    .b1 p {
+        margin-top: 2vw;
+    }
+
+    .b1 .hicon i {
+        margin-left: 30vw;
+        font-size: 6vw;
+    }
+
+    .b4 .hicon i {
+        margin-left: 40vw;
+        font-size: 6vw;
+    }
+
+    .boxes2 {
+        flex-direction: column;
+    }
+
+    .boxes2 .b4 {
+        width: 100%;
+        height: 50%;
+        padding: 6vw;
+        border-radius: 6vw;
+        margin-top: 4vw;
+    }
+
+    .b4 img {
+        object-fit: cover;
+        border-radius: 4vw;
+    }
+
+
+    .b4 p {
+        margin-left: 2vw;
+    }
+
+    .b4 .hicon {
+        padding: 2vw;
+    }
+
+    .contact {
+        margin-top: 6vw;
+    }
+
+    .contact h1 {
+        font-size: 6vw;
+    }
+
+    .contact p {
+        font-size: 4vw;
+        margin-top: 2vw;
+    }
+
+    .contact .aa {
+        font-size: 5vw;
+    }
+
+    .links {
+        margin-top: 4vw;
+    }
+
+    .linkedin {
+        height: 10%;
+        width: 12%;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        transform-origin: center;
+    }
+
+    .linkedin .li {
+        color: white;
+        font-size: 10vw;
+        background: none;
+    }
+
+    .linkedin .fb {
+        color: white;
+        font-size: 10vw;
+        background: none;
+    }
+
+    .linkedin .ins {
+        color: white;
+        font-size: 10vw;
+        background: none;
+    }
+}
